@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc_example",
+  "version": "1.0.0",
+  "description": "This is some example code to show you how to use JSDoc for documenting your JavaScript and also using it for type checking.",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}
