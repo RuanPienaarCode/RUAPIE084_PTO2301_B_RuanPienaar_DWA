@@ -8,3 +8,9 @@ myCode\ITW9_Final
 myCode\Programming Fundamentals
 myCode\CD to Project File.txt
 CV Examples
+.eslintrc.json
+node_modules
+.eslintrc.js
+package-lock.json
+.prettierrc.json\
+package.json
