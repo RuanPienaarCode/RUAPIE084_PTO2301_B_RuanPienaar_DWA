@@ -1,8 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.autoClosingQuotes": "always",
+
+    "markdown.preview.typographer": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "eslint.options": {},
+    "prettier.useEditorConfig": false
+  }
 }
