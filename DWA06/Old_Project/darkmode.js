@@ -1,3 +1,4 @@
+//darkmode.js
 /**
  *Event handler for the user's interaction with the settings button positioned at the top of the header.
  *This function facilitates the toggling of the visibility for the settings overlay.

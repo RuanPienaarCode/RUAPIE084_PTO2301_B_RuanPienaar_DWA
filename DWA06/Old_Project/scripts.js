@@ -1,3 +1,4 @@
+//scripts.js
 /* eslint linebreak-style: ['error', 'windows'] */
 /**
  * Importing variables from the "./data.js" module.
