@@ -29,7 +29,7 @@ function updateCounterDisplay() {
 		setTimeout(
 			() => {
 				counterElement.textContent =
-					counter;
+					'0';
 			},
 			1000
 		);
@@ -43,6 +43,7 @@ plusButton.addEventListener(
 	'click',
 	() => {
 		counter++;
+		showResetDisplay = false;
 		updateCounterDisplay();
 	}
 );
@@ -51,6 +52,7 @@ minusButton.addEventListener(
 	'click',
 	() => {
 		counter--;
+		showResetDisplay = false;
 		updateCounterDisplay();
 	}
 );
