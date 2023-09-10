@@ -3,104 +3,39 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html
-	class="sl-theme-dark"
->
-	<head>
-		<meta
-			charset="utf-8"
-		/>
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<title>
-			New Tally App
-		</title>
-		<meta
-			name="description"
-			content=""
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1"
-		/>
-		<link
-			rel="stylesheet"
-			href="/DWA10/style.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/themes/light.css"
-		/>
-		<script
-			type="module"
-			src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/shoelace-autoloader.js"
-		></script>
-		<script
-			type="module"
-			src="/DWA10/script.js"
-		></script>
-		<link
-			rel="stylesheet"
-			href="path/to/shoelace/dist/themes/dark.css"
-		/>
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-			<p
-				class="browsehappy"
-			>
-				You are
-				using an
-				<strong
-					>outdated</strong
-				>
-				browser.
-				Please
-				<a href="#"
-					>upgrade
-					your
-					browser</a
-				>
-				to improve
-				your
-				experience.
-			</p>
-		<![endif]-->
-		<sl-button
-			size="large"
-			id="counter"
-		></sl-button>
-		<div></div>
-		<sl-button-group
-			label="Alignment"
-		>
-			<sl-button
-				id="minus"
-				size="large"
-				variant="danger"
-				pill
-				>Minus</sl-button
-			>
-			<sl-button
-				id="plus"
-				size="large"
-				variant="success"
-				>Plus</sl-button
-			>
-			<sl-button
-				id="reset"
-				size="large"
-				variant="neutral"
-				pill
-				>Reset</sl-button
-			>
-		</sl-button-group>
-		<script
-			src=""
-			async
-			defer
-		></script>
-	</body>
+<html class="sl-theme-dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>New Tally App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/DWA10/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/themes/light.css" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/shoelace-autoloader.js"
+    ></script>
+    <script type="module" src="/DWA10/script.js"></script>
+    <link rel="stylesheet" href="path/to/shoelace/dist/themes/dark.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an
+        <strong>outdated</strong>
+        browser. Please
+        <a href="#">upgrade your browser</a>
+        to improve your experience.
+      </p>
+    <![endif]-->
+    <sl-button size="large" id="counter"></sl-button>
+    <div></div>
+    <sl-button-group label="Alignment">
+      <sl-button id="minus" size="large" variant="danger" pill>Minus</sl-button>
+      <sl-button id="plus" size="large" variant="success">Plus</sl-button>
+      <sl-button id="reset" size="large" variant="neutral" pill>Reset</sl-button>
+    </sl-button-group>
+    <script src="" async defer></script>
+  </body>
 </html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>New Tally App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Update the path to your CSS file -->
+    <link rel="stylesheet" href="/DWA14/Tally.App/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/shoelace-autoloader.js"></script>
+    <!-- Include lit from the CDN using the bundled version -->
+    <!-- <script type="module">
+      import { LitElement, html } from './lit.js';
+    </script> -->
+    <!-- <script src="./xstate.js"></script> -->
+    <!-- Include XState core -->
+    <script src="https://unpkg.com/xstate@4/dist/xstate.js"></script>
+    <!-- Include XState web (if needed) -->
+    <!-- <script src="https://unpkg.com/xstate@4/dist/xstate.web.js"></script> -->
+    <script type="module" src="/DWA14/Tally.App/script.js"></script>
+  </head>
+  <body>
+    <!-- Include the counter-app custom element and status box -->
+    <counter-app></counter-app>
+    <update-state-app .counter="${counterApp.counter}"></update-state-app>
+
+    <sl-button-group label="Alignment">
+      <sl-button size="large" id="counter"></sl-button>
+      <div></div>
+    </sl-button-group>
+    <sl-button-group label="Alignment">
+      <sl-button id="minus" size="large" variant="danger" pill>Minus</sl-button>
+      <sl-button id="plus" size="large" variant="success">Plus</sl-button>
+      <sl-button id="reset" size="large" variant="neutral" pill>Reset</sl-button>
+    </sl-button-group>
+
+    <!-- Add any additional scripts here if needed -->
+  </body>
+</html>
